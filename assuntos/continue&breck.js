@@ -7,8 +7,11 @@
     let i = 1
     while(i <= 10){
         if (i === 5){
-            continue;
-        }
+            continue; // pula interação, testar mais uma vez a interação
+         }
+         if( i === 7){
+            break; // para axecução
+         }
         console.log(i);
         i++;
     }
